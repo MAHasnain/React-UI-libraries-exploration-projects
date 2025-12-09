@@ -3,7 +3,11 @@
 // import CardComp from "./cardComp"
 // import AccordionComp from "./accordion"
 
-import Fields from "./fields";
+import { ChartComponent } from "./components/example-chart";
+
+// import Page from "./dashboard-page";
+
+// import Fields from "./fields";
 
 // import { Calendar22 } from "./popover";
 
@@ -28,8 +32,10 @@ const App = () => {
       {/* <BreadCrumb /> */}
 
       {/* <Calendar22 /> */}
-    <Fields />
-    
+      {/* <Fields /> */}
+
+      {/* <Page /> */}
+      <ChartComponent />
     </div>
   );
 };
