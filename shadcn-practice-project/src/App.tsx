@@ -1,13 +1,19 @@
-import React from 'react'
-import { Example } from './carousel'
-import { ButtonDefault, ButtonDestructive, ButtonDisabled, ButtonGhost, ButtonIcon, ButtonIconLarge, ButtonLarge, ButtonLink, ButtonOutline, ButtonSecondary } from './button'
+// import { Example } from './carousel'
+// import { ButtonDefault, ButtonDestructive, ButtonDisabled, ButtonGhost, ButtonIcon, ButtonIconLarge, ButtonLarge, ButtonLink, ButtonOutline, ButtonSecondary } from './button'
+// import CardComp from "./cardComp"
+// import AccordionComp from "./accordion"
+
+import Fields from "./fields";
+
+// import { Calendar22 } from "./popover";
+
+// import BreadCrumb from "./breadCrumb";
 
 const App = () => {
   return (
     <div>
-
       {/* <Example /> */}
-      <ButtonDefault />
+      {/* <ButtonDefault />
       <ButtonDestructive />
       <ButtonDisabled />
       <ButtonGhost />
@@ -16,9 +22,16 @@ const App = () => {
       <ButtonLarge />
       <ButtonLink />
       <ButtonOutline />
-      <ButtonSecondary />
-    </div>
-  )
-}
+      <ButtonSecondary /> */}
+      {/* <AccordionComp /> */}
+      {/* <CardComp /> */}
+      {/* <BreadCrumb /> */}
 
-export default App
+      {/* <Calendar22 /> */}
+    <Fields />
+    
+    </div>
+  );
+};
+
+export default App;
